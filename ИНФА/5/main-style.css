@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(45deg, rgb(240, 240, 240), rgb(144, 139, 139));
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("bg2.jpg") no-repeat center;
+}
+
+.target {
+  position: absolute;
+  top: 20%;
+  right: 29%;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border: 2px solid black;
+}
+li {
+  width: 20px;
+  height: 20px;
+  list-style: none;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.shooter-2 {
+  position: absolute;
+  top: 30%;
+  right: 29%;
+}

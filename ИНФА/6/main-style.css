@@ -1,0 +1,33 @@
+*{
+	/* margin: 0;
+	padding: 0; */
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+header, footer {
+	background: rgb(0,120,191);
+	color: white;
+}
+
+ul {
+	/* padding: 25px; */
+	background: rgb(62,183,255);
+	color:black;
+}
+li{
+	list-style: none;
+	padding: 10px 10px 10px 25px;
+	background: white;	
+	position:relative;
+	
+}
+li:before{
+	display: block;
+	content: "";
+	position: absolute;
+	top:0;
+	left:0;
+	width: 2px;
+	height: 100%;
+	background: blue;
+}

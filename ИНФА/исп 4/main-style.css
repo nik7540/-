@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 span{
+	font-family: 'Rubik Iso', cursive;
+
+}
+
+body {
+	background-color: #000;
+}
+.container{
+	width:768px;
+	margin: 0 auto;
+}
+.page-header,
+.page-footer{
+	background: #8aea92;
+	color: #33202a;
+}
+
+.product{
+	position:relative;
+	padding: 20px;
+	min-height: 120px;
+	background-color:#fff;
+	border-radius: 15px;
+	list-style: none;
+}
+
+.products-list{
+	padding: 10px 20px;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 10px;
+}
+.product > h2{
+	color: #80ada0;
+}

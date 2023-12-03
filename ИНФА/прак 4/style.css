@@ -1,0 +1,35 @@
+h1, h2, ol{
+	border: 2em dashed black	
+}
+nav, h2{
+	border: 1px double green
+}
+.page-footer{
+	padding: 20px;
+	background: green;
+}
+body{
+	color: white;
+	font-size: 16px;
+	line-height: 26px;
+}
+.main{
+	border: 5px solid #2d508f; 
+}
+body{
+	background: #ffffff url("bg.png") no-repeat top center;
+}
+.skills dd{
+	background-color: #e8e8e8;
+	margin: 0;
+	margin-bottom: 10px;
+}
+.skills-level{
+	font-size: 12px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #4470c4;
+}
+.skills-level{
+	background-color: #47bb52;
+}
